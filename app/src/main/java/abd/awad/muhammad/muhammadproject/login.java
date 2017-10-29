@@ -6,6 +6,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class login extends AppCompatActivity
 {
     private EditText etName;
@@ -16,6 +19,8 @@ public class login extends AppCompatActivity
     private Button btnNo;
     private Button btnWait;
     private Button btnSearch;
+    private FirebaseAuth auth;
+    private FirebaseUser firebaseUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -30,5 +35,7 @@ public class login extends AppCompatActivity
         btnNo = (Button) findViewById(R.id.btnNo);
         btnWait = (Button) findViewById(R.id.btnWait);
         btnSearch = (Button) findViewById(R.id.btnSearch);
+        auth = FirebaseAuth.getInstance();
+        firebaseUser = auth.getCurrentUser();
     }
 }
