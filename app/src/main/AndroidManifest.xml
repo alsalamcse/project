@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LOGO"></activity>
+        <activity android:name=".LOGO" />
+        <activity android:name=".IfYesActivity" />
+        <activity android:name=".IfNoActivity"></activity>
     </application>
 
 </manifest>

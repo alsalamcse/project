@@ -8,4 +8,14 @@
     <string name="no">NO</string>
     <string name="waiting">Waiting List</string>
     <string name="search">Search Now</string>
+    <string name="whatisyourpositin">What Is The Position That You Played In Before?</string>
+    <string name="writedown">Write Down</string>
+    <string name="writedown1">Write Down</string>
+    <string name="or">Or..</string>
+    <string name="or1">OR CHOOSE POSITION</string>
+    <string name="gk">Goal Kepper</string>
+    <string name="def">DEFENDER</string>
+    <string name="def1">L DEFENDER</string>
+    <string name="def2">L Def</string>
+    <string name="def3">R Def</string>
 </resources>
