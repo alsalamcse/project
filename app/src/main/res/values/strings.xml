@@ -18,4 +18,6 @@
     <string name="def1">L DEFENDER</string>
     <string name="def2">L Def</string>
     <string name="def3">R Def</string>
+    <string name="def4">R Back</string>
+    <string name="def5">L Back</string>
 </resources>
